@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* utility class */
@@ -15,6 +16,25 @@
   background: #E55473;
   color: #ffffff;
   border: 0;
+}
+
+.logo-1 {
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+.logo-2 {
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
+.logo-3 {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
 }
 
 /* banner section */
@@ -32,7 +52,6 @@
 }
 
 .banner-header {
-  font-family: Arial, Helvetica, sans-serif;
   font-size:60px;
 }
 
@@ -46,3 +65,19 @@
   margin-right: 100px;
   margin-top: 49px;
 }
+
+/* Service Section */
+
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  margin: 75px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+/* .serveer .logo {
+  align-items: center;
+} */
