@@ -18,23 +18,25 @@
   border: 0;
 }
 
-.logo-1 {
-  margin-left: 90px;
-  margin-bottom: 10px;
+.btn {
+  padding-bottom: 30px;
+  gap: 10px;
 }
 
-.logo-2 {
-  margin-left: 75px;
-  margin-bottom: 10px;
-}
-
-.logo-3 {
-  margin-left: 25px;
-  margin-bottom: 10px;
+.heading {
+  font-size: 35px;
 }
 
 .title {
   font-size: 18px;
+}
+
+.instra {
+  padding-bottom: 10px;
+}
+
+.span {
+  color: #E55473;
 }
 
 /* banner section */
@@ -53,11 +55,11 @@
 
 .banner-header {
   font-size:60px;
+  padding-bottom: 10px;
 }
 
 .banner-text {
   font-style: italic;
-  padding-top: 10px;
   line-height: 20px;
 }
 
@@ -71,13 +73,108 @@
 .service-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 35px;
+  font-size: 24px;
   height: 250px;
-  margin: 75px 100px;
+  margin: 100px 100px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 }
 
-/* .serveer .logo {
+/* Deal Section */
+
+#deal-section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
   align-items: center;
-} */
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.deal-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flr-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.flr-descript {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flr-img {
+  width: 100%;
+}
+
+.flowers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  gap: 10px;
+}
+
+.latest-deal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+  align-items:center;
+  background-image: url(../image/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 80px ;
+}
+
+.heading-LD {
+  font-size:40px ;
+  padding-bottom: 20px;
+}
+
+.LD-text {
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+
+input {
+  display: inline-flex;
+  padding-right: 80px;
+  padding: 20px 43px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: #111010;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+  margin: 10px;
+  line-height: 20px;
+}
+
+.footer h1 {
+  font-size: 40px;
+}
